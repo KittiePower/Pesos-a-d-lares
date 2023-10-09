@@ -1,0 +1,27 @@
+/******************************************************************************
+Pesos a dólares
+Nombre: Elisa Michelle Medina Vázquez
+Fecha: 140422
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+int main()
+{
+    //Variables
+    float pesos,dolares,valorAct;
+    
+    //Valor
+    cout<<"valor del dolar actual ";
+    cin>>valorAct;
+    cout<<"Que cantidad de pesos quieres convertir a dolares? ";
+    cin>>pesos;
+    
+    //Formula
+    dolares=pesos/valorAct;
+    cout<<"El valor de tus dolares sera de un total "<<dolares<<endl;
+    return 0;
+}
+
+
+
+
